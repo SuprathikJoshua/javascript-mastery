@@ -22,3 +22,11 @@ Type Coercion - Automatic converstion of types by JS
 const year = "2007";
 console.log(year + 19); // Type coercion - JS automatically converts 19 to string
 console.log(Number(year) + 19); // Type conversion - Manual conversion
+
+/*
+? Truthy values - Values when converted to boolean returns true
+? Falsy values - Values when converted to boolean return false
+? Only 5 falsy values - 0, undefined, "", null, NaN
+*/
+
+console.log(Boolean(0));
