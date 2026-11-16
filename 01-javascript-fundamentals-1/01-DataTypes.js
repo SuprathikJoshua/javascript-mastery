@@ -30,3 +30,6 @@ console.log(Number(year) + 19); // Type conversion - Manual conversion
 */
 
 console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Suprathik"));
+console.log(Boolean({}));
