@@ -37,3 +37,6 @@ if (person[interestedIn]) {
 console.log(
 	`${person.firstName} has ${person.friends.length}, his best friend is ${person.friends[0]}`,
 );
+
+//Object Methods - Functions => stored as obj props, accesed by this keyowrd
+console.log(person.calcAge()); // Output: 17
